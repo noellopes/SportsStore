@@ -11,7 +11,7 @@ namespace SportsStore.Models
         public int ProductId { get; set; }
 
         [Required]
-        [StringLength(100)]
+        [StringLength(256)]
         public string Name { get; set; }
 
         public string Description { get; set; }
